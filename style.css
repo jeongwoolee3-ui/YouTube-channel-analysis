@@ -124,3 +124,29 @@ h3{
 .logo-small{
     width:80px;
 }
+.sizes div{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    min-width:180px;
+}
+
+.sizes p{
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.sizes a{
+    display:inline-block;
+    margin-top:12px;
+    padding:8px 14px;
+    background:#222;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.sizes a:hover{
+    background:#555;
+}
