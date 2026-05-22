@@ -282,3 +282,37 @@ nav {
     border-radius:16px;
     box-shadow:0 6px 20px rgba(0,0,0,0.12);
 }
+/* Navigation Layout Fix */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.nav-logo{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:28px;
+    margin-left:auto;
+    background:transparent !important;
+    box-shadow:none !important;
+    padding:0 !important;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#222;
+    font-weight:700;
+    transition:0.2s;
+}
+
+.nav-links a:hover{
+    color:#666;
+}
