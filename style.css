@@ -324,3 +324,46 @@ nav{
 .nav-links a:hover{
     color:#666;
 }
+/* FINAL LOGO SECTION FIX */
+.logo-box .sizes{
+    display:flex !important;
+    flex-direction:row !important;
+    justify-content:center !important;
+    align-items:stretch !important;
+    gap:24px !important;
+    flex-wrap:nowrap !important;
+}
+
+.logo-box .sizes > div{
+    background:white !important;
+    padding:25px !important;
+    border-radius:12px !important;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08) !important;
+    width:260px !important;
+    text-align:center !important;
+}
+
+.logo-box .medium-versions{
+    display:flex !important;
+    justify-content:center !important;
+    gap:15px !important;
+}
+
+.logo-box .sizes img{
+    display:block !important;
+    margin:0 auto 20px !important;
+    height:auto !important;
+    object-fit:contain !important;
+}
+
+.logo-box .logo-large{
+    width:180px !important;
+}
+
+.logo-box .logo-medium{
+    width:90px !important;
+}
+
+.logo-box .logo-small{
+    width:80px !important;
+}
