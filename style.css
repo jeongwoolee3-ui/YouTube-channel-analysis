@@ -268,3 +268,16 @@ nav {
     border-radius:16px;
     box-shadow:0 6px 20px rgba(0,0,0,0.12);
 }
+#montage .video-box{
+    text-align:center;
+}
+
+#montage .video-box img{
+    display:block;
+    width:70% !important;
+    max-width:750px !important;
+    height:auto !important;
+    margin:30px auto 0 auto;
+    border-radius:16px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.12);
+}
