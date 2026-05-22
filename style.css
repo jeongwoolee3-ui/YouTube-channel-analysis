@@ -374,3 +374,14 @@ nav{
     padding:8px;
     border-radius:8px;
 }
+/* FINAL VIDEO FIX */
+.video-box iframe{
+    width:560px !important;
+    max-width:100% !important;
+    height:315px !important;
+    aspect-ratio:auto !important;
+    border:0 !important;
+    display:block !important;
+    margin:0 auto !important;
+    border-radius:10px !important;
+}
