@@ -144,11 +144,12 @@ article{
 }
 
 .sizes{
+    .sizes{
     display:flex;
     justify-content:center;
-    align-items:stretch;
+    align-items:flex-start;
     gap:18px;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     margin-top:30px;
 }
 
