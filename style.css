@@ -393,3 +393,20 @@ nav{
     padding:0 !important;
     text-align:left !important;
 }
+/* FORCE VIDEO LEFT */
+#videos .video-box{
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:0 !important;
+    margin-right:auto !important;
+    padding:0 !important;
+    text-align:left !important;
+}
+
+#videos .video-box iframe{
+    width:560px !important;
+    height:315px !important;
+    display:block !important;
+    margin-left:0 !important;
+    margin-right:auto !important;
+}
