@@ -242,15 +242,17 @@ nav {
     display:flex;
     align-items:center;
     gap:15px;
+    flex-wrap:nowrap;
 }
 
 .nav-logo img{
-    width:80px !important;
-    height:80px !important;
+    width:120px !important;
+    height:auto !important;
     object-fit:contain !important;
 }
 
 .nav-logo h2{
     margin:0;
     font-size:24px;
+    white-space:nowrap;
 }
