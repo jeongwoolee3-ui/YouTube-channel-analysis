@@ -258,3 +258,17 @@ article{
     border-radius:16px;
     box-shadow:0 6px 20px rgba(0,0,0,0.12);
 }
+/* FINAL NAV LEFT FIX */
+nav{
+    padding-left:0 !important;
+}
+
+.nav-logo{
+    margin-left:-35px !important;
+    gap:4px !important;
+}
+
+.nav-logo img{
+    width:80px !important;
+    height:80px !important;
+}
