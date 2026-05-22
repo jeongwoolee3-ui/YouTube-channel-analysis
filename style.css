@@ -229,3 +229,19 @@ h3{
     width:40px;
     height:auto;
 }
+nav .nav-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+nav .nav-logo img{
+    width:42px !important;
+    height:42px !important;
+    object-fit:contain;
+}
+
+nav .nav-logo h2{
+    margin:0;
+    font-size:22px;
+}
