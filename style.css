@@ -258,3 +258,18 @@ article{
     border-radius:16px;
     box-shadow:0 6px 20px rgba(0,0,0,0.12);
 }
+/* FORCE NAV RESET */
+nav{
+    padding-left:30px !important;
+}
+
+.nav-logo{
+    transform:translateX(0px) !important;
+    margin-left:0 !important;
+    padding-left:0 !important;
+    gap:10px !important;
+}
+
+.nav-logo img{
+    margin-left:0 !important;
+}
