@@ -163,3 +163,25 @@ h3{
     justify-content:center;
     align-items:flex-start;
 }
+.medium-versions > div{
+    box-shadow:none;
+    padding:0;
+    min-width:130px;
+    background:transparent;
+}
+
+.medium-versions{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.sizes{
+    gap:20px;
+    flex-wrap:nowrap;
+}
+
+.sizes > div{
+    min-width:170px;
+}
