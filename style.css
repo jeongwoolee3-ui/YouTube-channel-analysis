@@ -121,6 +121,7 @@ p{
     margin-top:30px;
     text-align:center;
 }
+
 .logo-box img{
     display:block;
     margin:0 auto;
@@ -128,17 +129,6 @@ p{
     height:auto;
 }
 
-.logo-large{
-    width:180px;
-}
-
-.logo-medium{
-    width:130px;
-}
-
-.logo-small{
-    width:90px;
-}
 .logo-box a{
     display:inline-block;
     margin:12px 0 30px;
@@ -156,28 +146,17 @@ p{
 .sizes{
     display:flex;
     justify-content:center;
-    gap:50px;
-    flex-wrap:wrap;
+    gap:20px;
+    flex-wrap:nowrap;
     margin-top:30px;
 }
 
-.logo-large{
-    width:220px;
-}
-
-.logo-medium{
-    width:140px;
-}
-
-.logo-small{
-    width:80px;
-}
-.sizes div{
+.sizes > div{
     background:white;
     padding:25px;
     border-radius:12px;
     box-shadow:0 4px 12px rgba(0,0,0,0.08);
-    min-width:150px;
+    min-width:170px;
 }
 
 .sizes p{
@@ -185,6 +164,31 @@ p{
     margin-bottom:15px;
 }
 
+.logo-large{
+    width:180px;
+}
+
+.logo-medium{
+    width:130px;
+}
+
+.logo-small{
+    width:90px;
+}
+
+.medium-versions{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.medium-versions > div{
+    box-shadow:none;
+    padding:0;
+    min-width:130px;
+    background:transparent;
+}
 .sizes a{
     display:inline-block;
     margin-top:12px;
@@ -197,41 +201,6 @@ p{
 
 .sizes a:hover{
     background:#555;
-}
-.sizes{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-    margin-top:30px;
-}
-.medium-versions{
-    display:flex;
-    gap:20px;
-    justify-content:center;
-    align-items:flex-start;
-}
-.medium-versions > div{
-    box-shadow:none;
-    padding:0;
-    min-width:130px;
-    background:transparent;
-}
-
-.medium-versions{
-    display:flex;
-    gap:15px;
-    justify-content:center;
-    align-items:flex-start;
-}
-
-.sizes{
-    gap:20px;
-    flex-wrap:nowrap;
-}
-
-.sizes > div{
-    min-width:170px;
 }
 #prompt{
     margin-top:40px;
