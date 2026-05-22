@@ -82,3 +82,45 @@ article{
 h3{
     margin-top:30px;
 }
+.logo-box{
+    background:white;
+    border-radius:12px;
+    padding:40px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    margin-top:30px;
+    text-align:center;
+}
+
+.logo-box a{
+    display:inline-block;
+    margin:12px 0 30px;
+    padding:10px 18px;
+    background:#222;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.logo-box a:hover{
+    background:#555;
+}
+
+.sizes{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.logo-large{
+    width:220px;
+}
+
+.logo-medium{
+    width:140px;
+}
+
+.logo-small{
+    width:80px;
+}
