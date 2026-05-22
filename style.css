@@ -245,3 +245,8 @@ nav .nav-logo h2{
     margin:0;
     font-size:22px;
 }
+nav .nav-logo img{
+    width:80px !important;
+    height:80px !important;
+    object-fit:contain !important;
+}
