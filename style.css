@@ -385,3 +385,10 @@ nav{
     margin:0 auto !important;
     border-radius:10px !important;
 }
+/* FINAL VIDEO BOX SIZE FIX */
+.video-box{
+    width:fit-content !important;
+    max-width:none !important;
+    margin:30px auto !important;
+    padding:25px !important;
+}
