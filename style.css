@@ -122,12 +122,13 @@ p{
     text-align:center;
 }
 .logo-box img{
-    width:100%;
     max-width:700px;
+    max-height:420px;
+    width:auto;
     height:auto;
     display:block;
     margin:0 auto;
-    border-radius:10px;
+    object-fit:contain;
 }
 .logo-box a{
     display:inline-block;
