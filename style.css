@@ -367,3 +367,8 @@ nav{
 .logo-box .logo-small{
     width:80px !important;
 }
+.logo-box .medium-versions img:last-child{
+    background:#e9e9e9;
+    padding:8px;
+    border-radius:8px;
+}
