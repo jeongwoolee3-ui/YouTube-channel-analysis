@@ -386,21 +386,11 @@ nav{
     border-radius:10px !important;
 }
 /* FINAL VIDEO BOX SIZE FIX */
-.video-box{
-    width:100% !important;
-    max-width:none !important;
-    margin:30px 0 !important;
-    padding:0 !important;
-    text-align:left !important;
-}
-/* FORCE VIDEO LEFT */
 #videos .video-box{
-    width:560px !important;
-    max-width:560px !important;
-    margin-left:0 !important;
-    margin-right:auto !important;
+    display:inline-block !important;
     padding:0 !important;
-    text-align:left !important;
+    margin:30px 0 !important;
+    background:white !important;
 }
 
 #videos .video-box iframe{
