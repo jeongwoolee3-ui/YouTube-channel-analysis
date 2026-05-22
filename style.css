@@ -395,8 +395,8 @@ nav{
 }
 /* FORCE VIDEO LEFT */
 #videos .video-box{
-    width:100% !important;
-    max-width:100% !important;
+    width:560px !important;
+    max-width:560px !important;
     margin-left:0 !important;
     margin-right:auto !important;
     padding:0 !important;
