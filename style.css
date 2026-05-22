@@ -147,7 +147,7 @@ article{
     display:flex;
     justify-content:center;
     align-items:stretch;
-    gap:25px;
+    gap:18px;
     flex-wrap:nowrap;
     margin-top:30px;
 }
@@ -159,7 +159,7 @@ article{
     box-shadow:0 4px 12px rgba(0,0,0,0.08);
     min-width:170px;
     text-align:center;
-    width:260px;
+    width:230px;
 }
 
 .sizes p{
