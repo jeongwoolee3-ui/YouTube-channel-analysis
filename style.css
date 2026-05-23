@@ -1059,3 +1059,22 @@ body {
 .prompt-card p {
   margin-bottom: 18px;
 }
+.ai-logo-info{
+    display:grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap:32px;
+    align-items:start;
+}
+
+.left-column{
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+}
+
+.gradient-card{
+    background:
+      radial-gradient(circle at top left, rgba(37,99,235,.08), transparent 35%),
+      radial-gradient(circle at bottom right, rgba(245,158,11,.06), transparent 30%),
+      #fff;
+}
