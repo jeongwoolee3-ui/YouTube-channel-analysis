@@ -1051,65 +1051,11 @@ body {
   font-size: 1.08rem;
   line-height: 1.7;
 }
-/* Prompt Card Final */
-
-.prompt-card{
-    background:#f8fafc;
-    border-radius:28px;
-    padding:36px;
-    border:1px solid rgba(36,82,214,.08);
-    box-shadow:0 10px 35px rgba(0,0,0,.05);
+.prompt-card strong {
+  color: #2452d6;
+  font-weight: 800;
 }
 
-.prompt-header{
-    display:flex;
-    align-items:center;
-    gap:18px;
-    margin:18px 0 24px;
-}
-
-.prompt-icon{
-    width:56px;
-    height:56px;
-    border-radius:16px;
-    background:linear-gradient(135deg,#2452d6,#4f7dff);
-    color:#fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:1.4rem;
-    font-weight:700;
-    flex-shrink:0;
-    box-shadow:0 8px 20px rgba(36,82,214,.18);
-}
-
-.prompt-header h3{
-    margin:0;
-}
-
-.prompt-sub{
-    margin-top:4px;
-    color:#7b8799;
-    font-size:.95rem;
-}
-
-.prompt-box{
-    background:white;
-    border-radius:22px;
-    padding:34px;
-    border:1px solid #edf1f7;
-    box-shadow:0 6px 20px rgba(0,0,0,.03);
-}
-
-.prompt-box strong{
-    display:block;
-    color:#2452d6;
-    margin-bottom:8px;
-    font-size:.98rem;
-    letter-spacing:.4px;
-}
-
-.prompt-box p{
-    margin-bottom:18px;
-    line-height:1.9;
+.prompt-card p {
+  margin-bottom: 18px;
 }
