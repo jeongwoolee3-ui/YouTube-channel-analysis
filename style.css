@@ -643,3 +643,183 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* ---------- Essay / Channel Analysis Design ---------- */
+
+.essay-section {
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 28%),
+    #f4f6fb;
+}
+
+.essay-container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.essay-header {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.essay-header .essay-label {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #2563eb;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.essay-header h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.essay-header p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.15rem;
+  color: #475569;
+}
+
+.essay-card {
+  background: #ffffff;
+  border-radius: 26px;
+  padding: 46px 54px;
+  margin-bottom: 30px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.essay-card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #0f172a;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.10);
+}
+
+.essay-card h4 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  color: #1e3a8a;
+  margin: 28px 0 12px;
+}
+
+.essay-card p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.13rem;
+  line-height: 1.9;
+  color: #1f2937;
+  margin-bottom: 18px;
+}
+
+.essay-title-block {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.essay-title-block h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.2rem;
+  line-height: 1.18;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.essay-title-block p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.15rem;
+  color: #475569;
+  font-style: italic;
+}
+
+.footnote-ref {
+  color: #2563eb;
+  font-family: Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 900;
+  vertical-align: super;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.footnote-ref:hover {
+  text-decoration: underline;
+}
+
+.notes-card,
+.references-card {
+  background: #ffffff;
+  border-radius: 26px;
+  padding: 42px 50px;
+  margin-bottom: 30px;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.07);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.notes-card h3,
+.references-card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 22px;
+}
+
+.notes-card ol {
+  padding-left: 22px;
+}
+
+.notes-card li,
+.references-card p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: #1f2937;
+  margin-bottom: 14px;
+}
+
+.back-ref {
+  color: #2563eb;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.back-ref:hover {
+  text-decoration: underline;
+}
+
+.source-link {
+  color: #2563eb;
+  word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  .essay-card,
+  .notes-card,
+  .references-card {
+    padding: 30px 24px;
+    border-radius: 22px;
+  }
+
+  .essay-card p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+
+  .essay-title-block h1 {
+    font-size: 1.8rem;
+  }
+}
