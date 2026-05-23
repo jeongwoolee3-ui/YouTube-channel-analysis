@@ -408,8 +408,15 @@ footer {
 .ai-logo-info {
   margin-top: 44px;
   display: grid;
-  grid-template-columns: 0.8fr 1.4fr;
-  gap: 26px;
+  grid-template-columns: 1fr 1.45fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .info-card,
@@ -422,8 +429,27 @@ footer {
   border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
+.gradient-card,
 .prompt-card {
-  grid-row: span 2;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 36%),
+    radial-gradient(circle at bottom right, rgba(245, 158, 11, 0.08), transparent 32%),
+    #ffffff !important;
+}
+
+.prompt-card {
+  position: relative;
+}
+
+.prompt-card::after {
+  content: "PROMPT";
+  position: absolute;
+  top: 28px;
+  right: 32px;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: rgba(37, 99, 235, 0.20);
 }
 
 .label {
