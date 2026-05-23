@@ -1159,37 +1159,13 @@ body {
         );
 }
 
-.conclusion-card h2{
-    font-size:72px;
-    line-height:1;
-    margin:14px 0 35px;
-    color:#0f1733;
-    letter-spacing:-2px;
+.conclusion-header h2{
+    font-size:56px;
 }
-
 .conclusion-card p{
     font-size:20px;
     line-height:2;
     color:#4a556f;
     margin-bottom:24px;
     max-width:940px;
-}
-
-.conclusion-card .label{
-    display:inline-block;
-    padding:8px 16px;
-    border-radius:999px;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(90,120,255,0.10),
-            rgba(120,150,255,0.06)
-        );
-
-    color:#3561ff;
-    font-size:14px;
-    font-weight:700;
-    letter-spacing:1px;
-    text-transform:uppercase;
 }
