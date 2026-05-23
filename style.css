@@ -973,3 +973,73 @@ body {
     margin-left:auto;
     margin-right:auto;
 }
+/* ===== Essay Paragraph + Footnotes Fix ===== */
+
+.essay-card p{
+    font-family: "Times New Roman", serif;
+    font-size: 1.12rem;
+    line-height: 2;
+    color: #222;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.essay-subtitle{
+    text-align:center;
+    display:block;
+    width:100%;
+    margin:0 auto 35px;
+    font-family:"Times New Roman", serif;
+    font-style:italic;
+    color:#6b7280;
+    font-size:1.35rem;
+}
+
+.footnote-ref{
+    display:inline;
+    vertical-align:super;
+    font-size:0.68em;
+    font-weight:700;
+    color:#2452d6;
+    text-decoration:none;
+    margin-left:1px;
+    line-height:0;
+}
+
+.footnote-ref:hover{
+    color:#0d3abf;
+}
+
+.notes-list{
+    font-family:"Times New Roman", serif;
+    font-size:1.08rem;
+    line-height:1.9;
+    padding-left:32px;
+}
+
+.notes-list li{
+    margin-bottom:22px;
+    scroll-margin-top:120px;
+}
+
+.notes-list a{
+    color:#2452d6;
+    text-decoration:none;
+}
+
+.notes-list a:hover{
+    text-decoration:underline;
+}
+
+.references-card p{
+    font-family:"Times New Roman", serif;
+    line-height:2;
+    text-align:left;
+    word-spacing:normal !important;
+    letter-spacing:normal !important;
+}
+
+.references-card a{
+    color:#2452d6;
+    word-break:break-word;
+}
