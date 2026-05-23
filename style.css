@@ -535,3 +535,67 @@ footer {
     transform: translateY(-4px);
     box-shadow: 0 26px 60px rgba(15,23,42,0.10);
 }
+/* FORCE FONT + READABILITY */
+
+body,
+.logo-section,
+.ai-logo-info,
+.info-card,
+.prompt-card,
+.concept-card,
+.logo-card,
+p,
+h2,
+h3,
+h4,
+span,
+a,
+li {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.info-card h3,
+.prompt-card h3,
+.concept-card h3 {
+    font-size: 2.1rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -1.1px;
+    line-height: 1.1;
+    color: #0f172a;
+}
+
+.info-card p,
+.prompt-card p,
+.concept-card p {
+    font-size: 1.08rem !important;
+    line-height: 2.0 !important;
+    color: #475569 !important;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+
+.label {
+    font-size: 0.78rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 1.8px;
+    padding: 10px 18px;
+    border-radius: 999px;
+}
+
+.prompt-card {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(37,99,235,0.04),
+        transparent
+      ),
+      #ffffff;
+}
+
+.info-card,
+.prompt-card,
+.concept-card {
+    border-radius: 34px !important;
+    box-shadow:
+      0 25px 70px rgba(15,23,42,0.08) !important;
+}
