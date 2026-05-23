@@ -939,3 +939,8 @@ body {
     text-decoration:none;
     font-weight:bold;
 }
+.essay-title-block p {
+  text-align: center !important;
+  display: block;
+  width: 100%;
+}
