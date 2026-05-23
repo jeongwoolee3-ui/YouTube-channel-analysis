@@ -1043,3 +1043,11 @@ body {
     color:#2452d6;
     word-break:break-word;
 }
+.video-note {
+  max-width: 850px;
+  margin: 0 auto 34px;
+  text-align: center;
+  color: #d1d5db;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
