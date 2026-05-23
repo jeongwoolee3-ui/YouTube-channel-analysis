@@ -463,3 +463,75 @@ footer {
     transform: none;
   }
 }
+/* ---------- Typography Upgrade ---------- */
+
+.ai-logo-info,
+.info-card,
+.prompt-card,
+.concept-card {
+    font-family: 'Inter', sans-serif;
+}
+
+.label {
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.info-card h3,
+.prompt-card h3,
+.concept-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.15;
+    color: #111827;
+    margin-bottom: 18px;
+}
+
+.info-card p,
+.prompt-card p,
+.concept-card p {
+    font-size: 1.03rem;
+    line-height: 1.95;
+    color: #4b5563;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+}
+
+.prompt-card p {
+    max-width: 72ch;
+}
+
+.prompt-card {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(37,99,235,0.03),
+        transparent
+      ),
+      white;
+}
+
+.prompt-card p + p {
+    margin-top: 16px;
+}
+
+.concept-card p {
+    line-height: 1.9;
+}
+
+.info-card,
+.prompt-card,
+.concept-card {
+    transition: 0.25s ease;
+}
+
+.info-card:hover,
+.prompt-card:hover,
+.concept-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 26px 60px rgba(15,23,42,0.10);
+}
