@@ -899,10 +899,13 @@ body {
 
 .footnote-ref{
     vertical-align:super;
-    font-size:13px;
+    font-size:0.75em;
     text-decoration:none;
-    font-weight:bold;
+    font-weight:700;
     color:#2452d6;
+    margin-left:2px;
+    position:relative;
+    top:-0.05em;
 }
 
 .notes-box,
@@ -931,7 +934,12 @@ body {
 
 .references-box p{
     font-size:18px;
-    margin-bottom:20px;
+    margin-bottom:24px;
+    line-height:1.9;
+    text-align:left;
+    word-spacing:normal;
+    letter-spacing:normal;
+    hyphens:none;
 }
 
 .notes-box a{
@@ -952,4 +960,16 @@ body {
 
 .source-link:hover {
   color: #0f172a;
+}
+.essay-title-block{
+    text-align:center;
+}
+
+.essay-title-block p{
+    width:100%;
+    display:block;
+    text-align:center !important;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
 }
