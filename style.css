@@ -305,10 +305,18 @@ nav a:hover {
 }
 
 footer {
-  padding: 32px 7%;
+  padding: 28px 7%;
   text-align: center;
-  background: #111827;
-  color: #d1d5db;
+  background: #0b1326;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+footer p{
+  color: rgba(255,255,255,0.82);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
