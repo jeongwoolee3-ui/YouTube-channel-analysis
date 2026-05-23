@@ -1201,3 +1201,13 @@ body {
 .conclusion-card {
   margin-top: 0 !important;
 }
+#conclusion .conclusion-header {
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#conclusion .conclusion-header h2 {
+  width: 100%;
+  text-align: center !important;
+}
