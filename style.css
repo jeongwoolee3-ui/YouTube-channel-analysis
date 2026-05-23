@@ -344,3 +344,122 @@ footer {
     letter-spacing: -2px;
   }
 }
+.logo-section {
+  background:
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 30%),
+    #f8fafc;
+}
+
+.logo-showcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.logo-card {
+  background: white;
+  border-radius: 30px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.09);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.logo-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  background: #f9fafb;
+  border-radius: 22px;
+  padding: 22px;
+  margin-bottom: 24px;
+}
+
+.logo-card.featured {
+  border: 2px solid #2563eb;
+  transform: translateY(-10px);
+}
+
+.logo-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.logo-card p {
+  color: #6b7280;
+  margin-bottom: 22px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 13px 18px;
+  border-radius: 14px;
+  background: #111827;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.download-btn:hover {
+  background: #2563eb;
+}
+
+.ai-logo-info {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr;
+  gap: 26px;
+}
+
+.info-card,
+.prompt-card,
+.concept-card {
+  background: white;
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.prompt-card {
+  grid-row: span 2;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-card h3,
+.prompt-card h3,
+.concept-card h3 {
+  margin-bottom: 14px;
+  font-size: 1.5rem;
+}
+
+.info-card p,
+.prompt-card p,
+.concept-card p {
+  color: #4b5563;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 900px) {
+  .logo-showcase,
+  .ai-logo-info {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-card.featured {
+    transform: none;
+  }
+}
