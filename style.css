@@ -1104,3 +1104,53 @@ body {
       radial-gradient(circle at bottom right, rgba(245,158,11,.06), transparent 30%),
       #fff !important;
 }
+/* CONCLUSION */
+
+.conclusion-card {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 55px;
+    border-radius: 34px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,0.95),
+            rgba(244,247,255,0.95)
+        );
+
+    border: 1px solid rgba(80,110,255,0.10);
+
+    box-shadow:
+        0 18px 55px rgba(18,30,60,0.08);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.conclusion-card::before{
+    content:"";
+    position:absolute;
+    top:-120px;
+    right:-100px;
+    width:280px;
+    height:280px;
+    background: radial-gradient(
+        rgba(88,120,255,0.12),
+        transparent 70%
+    );
+}
+
+.conclusion-card h2{
+    font-size:52px;
+    margin:12px 0 28px;
+    color:#0f1733;
+}
+
+.conclusion-card p{
+    font-size:18px;
+    line-height:1.9;
+    color:#44506a;
+    margin-bottom:22px;
+    max-width:950px;
+}
