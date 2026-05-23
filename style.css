@@ -1160,7 +1160,13 @@ body {
 }
 
 .conclusion-header h2{
-    font-size:56px;
+    margin-top:16px;
+    margin-bottom:28px;
+    font-size:54px;
+    line-height:1.05;
+    letter-spacing:-1.5px;
+    color:#0f1733;
+    font-weight:800;
 }
 .conclusion-card p{
     font-size:20px;
