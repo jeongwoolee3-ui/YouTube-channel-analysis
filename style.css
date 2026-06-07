@@ -1233,17 +1233,17 @@ body {
     letter-spacing:1.5px;
 }
 
-.video-wrapper{
+#aivideo .video-wrapper{
     width:100%;
-    max-width:1350px;
-    margin:46px auto 64px;
+    max-width:430px;
+    margin:46px auto 60px;
     border-radius:28px;
     overflow:hidden;
     box-shadow:0 24px 60px rgba(0,0,0,0.22);
     background:#000;
 }
 
-.video-wrapper video{
+#aivideo .video-wrapper video{
     width:100%;
     height:auto;
     display:block;
@@ -1296,10 +1296,10 @@ body {
         font-size:42px;
     }
 
-    .video-wrapper{
-        max-width:100%;
+    #aivideo .video-wrapper{
+        max-width:340px;
         margin:36px auto 50px;
-        border-radius:20px;
+        border-radius:22px;
     }
 
     .ai-video-info{
@@ -1311,5 +1311,4 @@ body {
     .ai-video-info .prompt-card{
         padding:28px;
     }
-
 }
