@@ -1219,96 +1219,84 @@ body {
   width: 100%;
   text-align: center !important;
 }
-/* AI Video Section */
+/* =========================
+   AI VIDEO SECTION
+========================= */
 
-#aivideo .section-title h2{
-    font-size:56px;
-}
-
-#aivideo .section-title p{
-    max-width:900px;
-    margin:18px auto 0;
-    font-size:16px;
-    line-height:1.7;
-    letter-spacing:1.5px;
-}
-
-#aivideo .video-wrapper{
+.video-wrapper{
     width:100%;
-    max-width:430px;
-    margin:46px auto 60px;
+    max-width:1200px;
+    margin:50px auto 70px;
     border-radius:28px;
     overflow:hidden;
-    box-shadow:0 24px 60px rgba(0,0,0,0.22);
     background:#000;
+    box-shadow:0 24px 60px rgba(0,0,0,0.25);
 }
 
-#aivideo .video-wrapper video{
+.video-wrapper video{
     width:100%;
     height:auto;
     display:block;
-    object-fit:contain;
-    background:#000;
 }
 
 .ai-video-info{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:36px;
-    max-width:1100px;
-    margin:0 auto 70px;
-}
-
-.ai-video-info .info-card,
-.ai-video-info .prompt-card{
-    background:
-        radial-gradient(circle at top left, rgba(37,99,235,0.07), transparent 34%),
-        radial-gradient(circle at bottom right, rgba(245,158,11,0.06), transparent 30%),
-        #ffffff;
-    padding:38px;
-    border-radius:28px;
-    box-shadow:0 16px 42px rgba(0,0,0,0.10);
-    border:1px solid rgba(255,255,255,0.65);
-}
-
-.ai-video-info .info-card h3,
-.ai-video-info .prompt-card h3{
-    margin-top:14px;
-    margin-bottom:18px;
-    font-size:28px;
-    color:#111827;
-}
-
-.ai-video-info .info-card p,
-.ai-video-info .prompt-card p{
-    line-height:1.9;
-    font-size:17px;
-    color:#475569;
-}
-
-#aivideo .grid.three{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
     margin-top:70px;
+    margin-bottom:70px;
+}
+
+.info-card,
+.prompt-card{
+    background:#ffffff;
+    padding:48px;
+    border-radius:28px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.08);
+}
+
+.info-card h3,
+.prompt-card h3{
+    margin-top:12px;
+    margin-bottom:20px;
+    font-size:42px;
+}
+
+.info-card p,
+.prompt-card p{
+    line-height:1.9;
+    font-size:20px;
+}
+
+.info-card span,
+.prompt-card span{
+    display:inline-block;
+    margin-bottom:12px;
+    font-weight:700;
+    letter-spacing:1px;
+    color:#2563eb;
 }
 
 @media(max-width:900px){
 
-    #aivideo .section-title h2{
-        font-size:42px;
+    .video-wrapper{
+        max-width:100%;
+        border-radius:18px;
     }
 
-    #aivideo .video-wrapper{
-        max-width:340px;
-        margin:36px auto 50px;
-        border-radius:22px;
-    }
-
-    .ai-video-info{
-        gap:28px;
-        margin-bottom:55px;
-    }
-
-    .ai-video-info .info-card,
-    .ai-video-info .prompt-card{
+    .info-card,
+    .prompt-card{
         padding:28px;
     }
+
+    .info-card h3,
+    .prompt-card h3{
+        font-size:30px;
+    }
+
+    .info-card p,
+    .prompt-card p{
+        font-size:17px;
+    }
+
 }
