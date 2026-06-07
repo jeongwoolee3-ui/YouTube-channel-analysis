@@ -1300,3 +1300,41 @@ body {
     display: none !important;
     content: none !important;
 }
+/* AI VIDEO CARDS - reduce empty space */
+
+#aivideo .ai-video-info{
+    gap:24px !important;
+    margin-top:40px !important;
+    margin-bottom:45px !important;
+}
+
+#aivideo .info-card,
+#aivideo .prompt-card{
+    padding:32px 38px !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+}
+
+#aivideo .info-card h3,
+#aivideo .prompt-card h3{
+    margin-top:10px !important;
+    margin-bottom:14px !important;
+    font-size:28px !important;
+}
+
+#aivideo .info-card p,
+#aivideo .prompt-card p{
+    margin-top:0 !important;
+    margin-bottom:12px !important;
+    line-height:1.65 !important;
+    font-size:16px !important;
+}
+
+#aivideo .label{
+    margin-bottom:10px !important;
+}
+
+#aivideo .grid.three{
+    margin-top:40px !important;
+}
