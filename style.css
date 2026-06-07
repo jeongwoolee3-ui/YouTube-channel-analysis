@@ -1317,3 +1317,10 @@ body {
     height: auto !important;
     display: block !important;
 }
+.prompt-card::before,
+.prompt-card::after,
+.gradient-card::before,
+.gradient-card::after{
+    display:none !important;
+    content:none !important;
+}
