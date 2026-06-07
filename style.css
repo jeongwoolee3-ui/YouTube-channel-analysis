@@ -1300,3 +1300,20 @@ body {
     }
 
 }
+/* FORCE AI VIDEO FULL WIDTH */
+
+#aivideo .video-wrapper{
+    width: 90vw !important;
+    max-width: 1200px !important;
+    margin: 50px auto 70px !important;
+    border-radius: 28px !important;
+    overflow: hidden !important;
+    background: #000 !important;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.25) !important;
+}
+
+#aivideo .video-wrapper video{
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
