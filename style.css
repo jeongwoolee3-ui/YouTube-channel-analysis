@@ -653,17 +653,6 @@ body {
   position: relative;
 }
 
-.prompt-card::before {
-  content: "PROMPT";
-  position: absolute;
-  top: 28px;
-  right: 32px;
-  font-size: 0.72rem;
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: rgba(37, 99, 235, 0.25);
-}
-
 .info-card:hover,
 .concept-card:hover,
 .prompt-card:hover {
