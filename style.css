@@ -1373,9 +1373,6 @@ body {
     transform:scale(1.08);
 }
 .small-logo-img{
-    width:150px !important;
-    height:210px !important;
-    object-fit:contain !important;
-    margin:0 auto 24px !important;
-    display:block !important;
+    width:80px !important;
+    border:5px solid red !important;
 }
