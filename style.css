@@ -1372,3 +1372,8 @@ body {
 .group-logo-link:hover img{
     transform:scale(1.08);
 }
+.small-logo-card img{
+    width: 75% !important;
+    margin: 0 auto;
+    display: block;
+}
