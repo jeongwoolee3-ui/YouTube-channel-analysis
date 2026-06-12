@@ -1373,7 +1373,9 @@ body {
     transform:scale(1.08);
 }
 .small-logo-card img{
-    width: 75% !important;
-    margin: 0 auto;
-    display: block;
+    width: 60% !important;
+    height: 210px !important;
+    object-fit: contain !important;
+    margin: 0 auto 24px !important;
+    display: block !important;
 }
