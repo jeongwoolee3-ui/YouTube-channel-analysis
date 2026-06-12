@@ -32,7 +32,7 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   font-weight: 800;
   font-size: 1.05rem;
 }
