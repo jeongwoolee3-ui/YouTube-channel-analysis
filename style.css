@@ -1339,10 +1339,13 @@ body {
     margin-top:40px !important;
 }
 
+.prompt-card p,
+.info-card p {
+    max-width: none !important;
+    width: 100% !important;
 }
 
-.info-card p,
-.prompt-card p {
-    max-width: 100% !important;
+.prompt-card,
+.info-card {
     width: 100% !important;
 }
