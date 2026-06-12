@@ -1349,16 +1349,9 @@ body {
 .info-card {
     width: 100% !important;
 }
-/* Make AI Video prompt card use full space */
-
-#aivideo .prompt-card p{
-    column-count: 2;
-    column-gap: 48px;
-    max-width: none !important;
-    width: 100% !important;
-    text-align: left;
-}
-
-#aivideo .prompt-card{
-    padding: 42px 48px !important;
+#aivideo .prompt-card,
+#aivideo .info-card{
+    max-width: 1000px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
