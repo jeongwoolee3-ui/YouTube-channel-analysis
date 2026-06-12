@@ -1358,12 +1358,12 @@ body {
 .group-logo-link{
     display:flex;
     align-items:center;
-    margin:0 10px;
+    margin:0 14px;
     text-decoration:none;
 }
 
 .group-logo-link img{
-    height:28px;
+    height:45px;
     width:auto;
     display:block;
     transition:0.2s ease;
