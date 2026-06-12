@@ -1338,3 +1338,11 @@ body {
 #aivideo .grid.three{
     margin-top:40px !important;
 }
+
+}
+
+.info-card p,
+.prompt-card p {
+    max-width: 100% !important;
+    width: 100% !important;
+}
