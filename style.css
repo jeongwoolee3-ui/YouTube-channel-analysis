@@ -1092,7 +1092,7 @@ body {
 }
 /* CONCLUSION */
 
-.conclusion-card{
+.overview-card{
     max-width:1100px;
     margin:90px auto;
     padding:65px;
@@ -1115,7 +1115,7 @@ body {
     overflow:hidden;
 }
 
-.conclusion-card::before{
+.overview-card::before{
     content:"";
     position:absolute;
     top:-140px;
@@ -1130,7 +1130,7 @@ body {
         );
 }
 
-.conclusion-card::after{
+.overview-card::after{
     content:"";
     position:absolute;
     bottom:-120px;
@@ -1145,7 +1145,7 @@ body {
         );
 }
 
-.conclusion-header h2{
+.Overview-header h2{
     margin-top:16px;
     margin-bottom:28px;
     font-size:54px;
@@ -1154,7 +1154,7 @@ body {
     color:#0f1733;
     font-weight:800;
 }
-.conclusion-card p{
+.overview-card p{
     font-size:20px;
     line-height:2;
     color:#4a556f;
@@ -1163,12 +1163,12 @@ body {
 }
 /* Final conclusion alignment fix */
 
-#conclusion {
+#overview {
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
-.conclusion-header{
+.overview-header{
   width:100%;
   display:flex;
   flex-direction:column;
@@ -1184,16 +1184,16 @@ body {
   text-align:center;
 }
 
-.conclusion-card {
+.overview-card {
   margin-top: 0 !important;
 }
-#conclusion .conclusion-header {
+#overview .overview-header {
   max-width: 1100px;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-#conclusion .conclusion-header h2 {
+#overview .overview-header h2 {
   width: 100%;
   text-align: center !important;
 }
